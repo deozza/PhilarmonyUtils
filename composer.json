@@ -1,0 +1,21 @@
+{
+    "name": "deozza/philarmony-utils",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edenn Touitou",
+            "email": "deozza@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Deozza\\PhilarmonyUtils\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Deozza\\PhilarmonyUtils\\Tests\\": "tests/"
+        }
+    }
+}
