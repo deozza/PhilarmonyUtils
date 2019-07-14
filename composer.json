@@ -1,6 +1,7 @@
 {
     "name": "deozza/philarmony-utils",
     "license": "MIT",
+    "version": "0.2",
     "authors": [
         {
             "name": "Edenn Touitou",
