@@ -8,44 +8,44 @@ class AuthorizedKeys
     const ENTITY_HEAD = "entities";
     const PROPERTY_HEAD = "properties";
     const ENUMERATION_HEAD = "enumerations";
-    
+
     const ENTITY_KEYS = [
         "properties",
         "states",
         "constraints"
     ];
-    
+
     const DEFAULT_STATE = "__default";
-    
+
     const STATE_KEYS = [
         "methods",
         "constraints"
     ];
-    
+
     const METHODS = [
         "POST",
         "PATCH",
         "GET",
         "DELETE"
     ];
-    
+
     const METHOD_KEYS = [
         "properties",
         "by",
         "post_scripts"
     ];
-    
+
     const BY_KEYS = [
         "users",
         "roles"
     ];
-    
+
     const PROPERTY_KEYS = [
         "type",
         "constraints",
         "array",
     ];
-    
+
     const TYPES = [
         "string",
         "int",
@@ -56,7 +56,7 @@ class AuthorizedKeys
         "entity",
         "embedded"
     ];
-    
+
     const PROPERTY_CONSTRAINT_KEYS = [
         "required",
         "unique",
@@ -66,16 +66,16 @@ class AuthorizedKeys
         "lesserThan",
         "greaterThanOrEqual",
         "lesserThanOrEqual",
-        "length.max",
-        "length.min",
+        "lengthMax",
+        "lengthMin",
         "mime",
     ];
-    
+
     const ENTITY_CONSTRAINT_KEYS = [
         'manual',
         'properties'
     ];
-    
+
     const ENTITY_CONSTRAINT = [
         "greaterThan",
         "lesserThan",
@@ -86,7 +86,7 @@ class AuthorizedKeys
         "equal",
         "manual"
     ];
-    
+
     const MIME_TYPES = [
         "text/csv",
         "image/gif",
@@ -98,7 +98,4 @@ class AuthorizedKeys
         "application/pdf",
         "application/xml"
     ];
-    
-    
-    
 }
